@@ -1,0 +1,12 @@
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\x64\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\x64\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\x64\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\x86\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\x86\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\x86\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\install.ps1
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\Tesseract.pdb
+C:\Users\Chris\Desktop\tesseract-master\bin\Release40Client\Tesseract.xml
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Release40Client\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Release40Client\Tesseract.pdb

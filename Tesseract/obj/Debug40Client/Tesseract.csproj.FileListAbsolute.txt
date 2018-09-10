@@ -1,0 +1,13 @@
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\x64\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\x64\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\x64\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\x86\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\x86\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\x86\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\install.ps1
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\Tesseract.pdb
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug40Client\Tesseract.xml
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Debug40Client\Tesseract.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Debug40Client\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Debug40Client\Tesseract.pdb

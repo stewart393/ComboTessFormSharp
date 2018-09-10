@@ -1,0 +1,12 @@
+C:\Users\Chris\Desktop\FormBuildHelper\bin\Debug\FormBuildHelper.exe
+C:\Users\Chris\Desktop\FormBuildHelper\bin\Debug\FormBuildHelper.pdb
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.FormRectangle.resources
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.frmImage.resources
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.MDIParent1.resources
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.Properties.Resources.resources
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.TransparentForm.resources
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.csproj.GenerateResource.Cache
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.exe
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.pdb
+C:\Users\Chris\Desktop\FormBuildHelper\obj\Debug\FormBuildHelper.frmNewRect.resources

@@ -1,0 +1,13 @@
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\x64\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\x64\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\x64\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\x86\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\x86\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\x86\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\install.ps1
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\Tesseract.pdb
+C:\Users\Chris\Desktop\tesseract-master\bin\Debug45\Tesseract.xml
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Debug45\Tesseract.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Debug45\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Debug45\Tesseract.pdb

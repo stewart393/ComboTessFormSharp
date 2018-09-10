@@ -1,0 +1,8 @@
+C:\Users\Chris\Desktop\TesseractGUIDemo\bin\Debug\TesseractGUIDemo.exe.config
+C:\Users\Chris\Desktop\TesseractGUIDemo\bin\Debug\TesseractGUIDemo.exe
+C:\Users\Chris\Desktop\TesseractGUIDemo\bin\Debug\TesseractGUIDemo.pdb
+C:\Users\Chris\Desktop\TesseractGUIDemo\obj\Debug\TesseractGUIDemo.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\TesseractGUIDemo\obj\Debug\TesseractGUIDemo.Properties.Resources.resources
+C:\Users\Chris\Desktop\TesseractGUIDemo\obj\Debug\TesseractGUIDemo.csproj.GenerateResource.Cache
+C:\Users\Chris\Desktop\TesseractGUIDemo\obj\Debug\TesseractGUIDemo.exe
+C:\Users\Chris\Desktop\TesseractGUIDemo\obj\Debug\TesseractGUIDemo.pdb

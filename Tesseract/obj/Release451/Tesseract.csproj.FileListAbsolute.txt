@@ -1,0 +1,12 @@
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\x64\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\x64\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\x64\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\x86\liblept172.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\x86\libtesseract304.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\x86\tesseract.exe
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\install.ps1
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\Tesseract.pdb
+C:\Users\Chris\Desktop\tesseract-master\bin\Release451\Tesseract.xml
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Release451\Tesseract.dll
+C:\Users\Chris\Desktop\tesseract-master\src\Tesseract\obj\Release451\Tesseract.pdb
