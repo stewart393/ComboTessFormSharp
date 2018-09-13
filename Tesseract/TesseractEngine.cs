@@ -21,7 +21,7 @@ namespace Tesseract
         private int processCount = 0;
 
         /// <summary>
-        /// Creates a new instance of <see cref="TesseractEngine"/> using the <see cref="EngineMode.Default"/> mode.
+        /// Creates a new instance of <see cref="TesseractEngine"/> using the <see cref="EngineMode.Default/> mode.
         /// </summary>
         /// <remarks>
         /// <para>

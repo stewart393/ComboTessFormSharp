@@ -534,21 +534,7 @@
             The tesseract OCR engine.
             </summary>
         </member>
-        <member name="M:Tesseract.TesseractEngine.#ctor(System.String,System.String)">
-            <summary>
-            Creates a new instance of <see cref="T:Tesseract.TesseractEngine"/> using the <see cref="F:Tesseract.EngineMode.Default"/> mode.
-            </summary>
-            <remarks>
-            <para>
-            The <paramref name="datapath"/> parameter should point to the directory that contains the 'tessdata' folder
-            for example if your tesseract language data is installed in <c>C:\Tesseract\tessdata</c> the value of datapath should
-            be <c>C:\Tesseract</c>. Note that tesseract will use the value of the <c>TESSDATA_PREFIX</c> environment variable if defined,
-            effectively ignoring the value of <paramref name="datapath"/> parameter.
-            </para>
-            </remarks>
-            <param name="datapath">The path to the parent directory that contains the 'tessdata' directory, ignored if the <c>TESSDATA_PREFIX</c> environment variable is defined.</param>
-            <param name="language">The language to load, for example 'eng' for English.</param>
-        </member>
+        <!-- Badly formed XML comment ignored for member "M:Tesseract.TesseractEngine.#ctor(System.String,System.String)" -->
         <member name="M:Tesseract.TesseractEngine.#ctor(System.String,System.String,System.String)">
             <summary>
             Creates a new instance of <see cref="T:Tesseract.TesseractEngine"/> with the specified <paramref name="configFile"/>

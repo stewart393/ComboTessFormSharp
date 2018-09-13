@@ -8,6 +8,7 @@ namespace Tesseract.ConsoleDemo
     {
         TesseractEngine engine;
 
+
         public static void Main(string[] args)
         {
             string testImagePath;
@@ -19,7 +20,7 @@ namespace Tesseract.ConsoleDemo
 
             try
             {
-                using (var engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default))
+                using (var engine = new TesseractEngine(@"C:\Users\Chris\Documents\GitHub\ComboTessFormSharp\ConsoleDemo\", "eng", EngineMode.TesseractAndCube))
                 {
                     var imageFile = System.Drawing.Image.FromFile(testImagePath);
                     if (imageFile.GetFrameCount(System.Drawing.Imaging.FrameDimension.Page) > 1)
@@ -59,54 +60,54 @@ namespace Tesseract.ConsoleDemo
             string hocrPath = mfile.DirectoryName + "\\" + System.IO.Path.GetFileNameWithoutExtension(testImagePath) + "_p" + pageNum.ToString() + ".xhtml";
 
             using (var page = engine.Process(img, PageSegMode.AutoOsd))
+            {
+                page.AnalyseLayout();
+                string hocr = page.GetHOCRText(0, true);
+                System.IO.File.AppendAllText(hocrPath, hocr);
+                var text = page.GetText();
+                Console.WriteLine("Mean confidence: {0}", page.GetMeanConfidence());
+                Console.WriteLine("Text (GetText): \r\n{0}", text);
+                Console.WriteLine("Text (iterator):");
+                using (var iter = page.GetIterator())
                 {
-                    page.AnalyseLayout();
-                    string hocr = page.GetHOCRText(0, true);
-                    System.IO.File.AppendAllText(hocrPath, hocr);
-                    var text = page.GetText();
-                    Console.WriteLine("Mean confidence: {0}", page.GetMeanConfidence());
-                    Console.WriteLine("Text (GetText): \r\n{0}", text);
-                    Console.WriteLine("Text (iterator):");
-                    using (var iter = page.GetIterator())
+                    iter.Begin();
+                    do
                     {
-                        iter.Begin();
                         do
                         {
                             do
                             {
                                 do
                                 {
-                                    do
+
+                                    if (iter.IsAtBeginningOf(PageIteratorLevel.Block))
                                     {
-
-                                        if (iter.IsAtBeginningOf(PageIteratorLevel.Block))
-                                        {
-                                            Console.WriteLine("<BLOCK>");
-                                            Rect currentBlock;
-                                            iter.TryGetBoundingBox(PageIteratorLevel.Block, out currentBlock);
-                                            Console.WriteLine(iter.BlockType.ToString());
-                                            Console.WriteLine("(" + currentBlock.X1.ToString() + "," + currentBlock.Y1.ToString() + ")  (" + currentBlock.X2.ToString() + "," + currentBlock.Y2.ToString() + ")");
-                                            Console.WriteLine("");
-                                        }
-
-                                        Console.Write(iter.GetText(PageIteratorLevel.Word));
-                                        Console.Write(" ");
-
-                                        if (iter.IsAtFinalOf(PageIteratorLevel.TextLine, PageIteratorLevel.Word))
-                                        {
-                                            Console.WriteLine(iter.BlockType.ToString());
-                                        }
-                                    } while (iter.Next(PageIteratorLevel.TextLine, PageIteratorLevel.Word));
-
-                                    if (iter.IsAtFinalOf(PageIteratorLevel.Para, PageIteratorLevel.TextLine))
-                                    {
-                                        Console.WriteLine();
+                                        Console.WriteLine("<BLOCK>");
+                                        Rect currentBlock;
+                                        iter.TryGetBoundingBox(PageIteratorLevel.Block, out currentBlock);
+                                        Console.WriteLine(iter.BlockType.ToString());
+                                        Console.WriteLine("(" + currentBlock.X1.ToString() + "," + currentBlock.Y1.ToString() + ")  (" + currentBlock.X2.ToString() + "," + currentBlock.Y2.ToString() + ")");
+                                        Console.WriteLine("");
                                     }
-                                } while (iter.Next(PageIteratorLevel.Para, PageIteratorLevel.TextLine));
-                            } while (iter.Next(PageIteratorLevel.Block, PageIteratorLevel.Para));
-                        } while (iter.Next(PageIteratorLevel.Block));
-                    }
+
+                                    Console.Write(iter.GetText(PageIteratorLevel.Word));
+                                    Console.Write(" ");
+
+                                    if (iter.IsAtFinalOf(PageIteratorLevel.TextLine, PageIteratorLevel.Word))
+                                    {
+                                        Console.WriteLine(iter.BlockType.ToString());
+                                    }
+                                } while (iter.Next(PageIteratorLevel.TextLine, PageIteratorLevel.Word));
+
+                                if (iter.IsAtFinalOf(PageIteratorLevel.Para, PageIteratorLevel.TextLine))
+                                {
+                                    Console.WriteLine();
+                                }
+                            } while (iter.Next(PageIteratorLevel.Para, PageIteratorLevel.TextLine));
+                        } while (iter.Next(PageIteratorLevel.Block, PageIteratorLevel.Para));
+                    } while (iter.Next(PageIteratorLevel.Block));
                 }
+            }
         }
     }
 }
