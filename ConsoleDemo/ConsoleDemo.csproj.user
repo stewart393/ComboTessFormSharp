@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>"\\WdMyCloud\Scans\2018-05-07\MailItem_2018-05-07_0002.tif"</StartArguments>
+    <StartArguments>C:\Users\Chris\Documents\GitHub\ComboTessFormSharp\ConsoleDemo\cms_1500_02-12.png</StartArguments>
   </PropertyGroup>
 </Project>

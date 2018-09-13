@@ -115,7 +115,9 @@ namespace Tesseract
         public Pix GetBinaryImage(PageIteratorLevel level)
         {
             VerifyNotDisposed();
-            if (handle.Handle == IntPtr.Zero) {
+            if (handle.Handle == IntPtr.Zero)
+            {
+
                 return null;
             }
 
